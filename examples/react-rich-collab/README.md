@@ -1,7 +1,7 @@
 # Basic Vanilla JS example
 
-Here we have simplest Lexical setup in rich text configuration (`@lexical/rich-text`) with history (`@lexical/history`) and accessibility (`@lexical/dragon`) features enabled.
+Here we have simplest Lexical collaboration mode setup.
 
-**Run it locally:** `npm i && npm run dev`
+**Run it locally:** `npm i && npm run dev:local`
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/facebook/lexical/tree/main/examples/react-rich?file=src/main.ts)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/facebook/lexical/tree/fix/collab_example/examples/react-rich-collab?file=src/main.ts)

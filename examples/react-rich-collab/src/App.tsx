@@ -36,6 +36,13 @@ export default function App() {
   const [userProfile, setUserProfile] = useState(() => getRandomUserProfile());
   const containerRef = useRef<HTMLDivElement | null>(null);
 
+  // TODO:
+  // 1. containerRef doesn't work
+  // 2. Hostory revert doesn't propagate to other side
+  // 3. Awareness: people online, color selector
+  // 4. WSS Server - storage
+  // 5. Offline mode - support correct lost of connection & resume
+
   return (
     <div ref={containerRef}>
       <p>
